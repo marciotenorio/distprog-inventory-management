@@ -31,4 +31,8 @@ public class Product {
     private Vendor vendor;
 
     private BigDecimal price;
+
+    private Long saleId;
+
+    private Long buyOrderId;
 }
