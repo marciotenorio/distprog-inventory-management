@@ -2,13 +2,13 @@ version: '3.1'
 services:
   db:
     image: mysql
-    container_name: mysql-erp
+    container_name: distprog-inventory-management
     environment:
       MYSQL_ROOT_PASSWORD: root
     ports:
       - "3306:3306"
     volumes:
-      - erp:/var/lib/mysql
+      - distprog-inventory-management:/var/lib/mysql
 
 volumes:
-  erp:
+  distprog-inventory-management:
