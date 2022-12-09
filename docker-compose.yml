@@ -5,6 +5,8 @@ services:
     container_name: distprog-inventory-management
     environment:
       MYSQL_ROOT_PASSWORD: root
+      #To map for another port
+      MYSQL_TCP_PORT: 3306
     ports:
       - "3306:3306"
     volumes:
