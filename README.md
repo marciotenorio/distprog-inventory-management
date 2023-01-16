@@ -15,3 +15,4 @@ Um simples e abstrato modulo de gerenciamento de estoque para um sistema ERP. Po
 - Gateway
 - Inventory Management
 - Procurement
+- Config Server
